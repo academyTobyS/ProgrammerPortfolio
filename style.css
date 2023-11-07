@@ -1,0 +1,265 @@
+body
+{
+  background-color: rgb(60, 107, 189);
+}
+
+.button-header
+{
+  display: inline-block;
+
+  color: black;
+  border: 2px solid black;
+  border-radius: 3px;
+  background-color: #a4d3f0;
+  
+  text-align: center;
+  text-decoration: none;
+  
+
+  font-family: impact;
+  font-size: 20px;
+  cursor: pointer;
+
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  padding: 8px 12px;
+  width: 200px;
+
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.button-header:hover
+{
+  background-color: #d1eeff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  
+}
+.button-header-active
+{
+  display: inline-block;
+
+  color: black;
+  border: 2px solid black;
+  border-radius: 3px;
+  background-color: #e9f7ff;
+  
+  text-align: center;
+  text-decoration: none;
+  
+
+  font-family: impact;
+  font-size: 20px;
+  cursor: pointer;
+
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  padding: 8px 12px;
+  width: 200px;
+}
+
+.text-author-name
+{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.text-author-title
+{
+  color: grey;
+  font-size: 22px;
+}
+
+.text-project-title
+{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text-project-type
+{
+  font-weight: bold;
+  font-size: 20px;
+
+  color: rgb(211, 0, 0);
+}
+
+.text-project-desc
+{
+  color: rgb(114, 114, 114);
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.text-gitlink
+{
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(211, 0, 0);
+}
+.text-gitlink:hover
+{
+  color: rgb(255, 120, 120);
+}
+
+.text-articles
+{
+  margin-top: 12px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.text-article-name
+{
+  padding-left: 5px;
+
+  padding-top: 15px;
+  margin-bottom: 5px;
+  color: rgb(211, 0, 0);
+  font-weight: bold;
+  font-size: 20px;
+
+  cursor: pointer;
+}
+.text-article-name:hover
+{
+  color: rgb(255, 120, 120);
+}
+
+.text-article-author
+{
+  padding-left: 5px;
+  margin-top: 0px;
+  color: rgb(114, 114, 114);
+}
+
+.text-about-title
+{
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text-about-intro
+{
+  
+  width: 400px;
+  vertical-align: bottom;
+}
+
+.text-highlight
+{
+  color: rgb(211, 0, 0);
+  font-weight: bold;
+}
+
+.div-headers
+{
+  margin-left: 40px;
+}
+
+.div-body
+{
+  margin-top: 10px;
+}
+
+.div-work
+{
+  display: inline-block;
+
+  width: 700px;
+}
+
+.div-title
+{
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: white;
+  padding-left: 10px;
+  width: 700px;
+}
+
+.div-articles
+{
+  display: inline-block;
+
+  vertical-align: top;
+
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: white;
+  margin-left: 20px;
+  padding-left: 10px;
+
+  width: 300px;
+  height: 578px;
+}
+
+.div-project
+{
+  padding-top: 10px;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  width: 700px;
+
+  padding-left: 10px;
+
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.div-about
+{
+  padding-top: 20px;
+  padding-left: 10px;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.div-project-description
+{
+  display: inline-block;
+  vertical-align: top;
+  width: 420px;
+}
+
+.div-project-image
+{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.div-about
+{
+  margin-top: 10px;
+  width: 700px;
+
+  font-size: 20px;
+}
+
+.image-project-screenshot
+{
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  object-fit: contain;
+  width: 270px;
+  height: 160px;
+
+  float: right;
+}
+
+.image-author
+{
+  object-fit: contain;
+  width: 270px;
+  height: 160px;
+
+  float: right;
+}
