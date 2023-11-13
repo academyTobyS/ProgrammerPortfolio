@@ -21,16 +21,20 @@
 title: Jo Bloggs - Sheffield Computer Science Graduate
 email: theAuthor@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  a portfolio for a computer science sutdent
-baseurl: "ProgrammerPortfolio" # the subpath of your site, e.g. /blog
+  a portfolio for a computer science student
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://programmer-portfolio-template.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: theAuthor
 github_username:  theAuthor
 
 # Build settings
-theme: minima
-plugins:
+# remote-theme: pages-themes/cayman@v0.2.0
+remote-theme: mmistakes/minimal-mistakes@4.24.0
+
+plugins: 
+  - jekyll-remote-theme
   - jekyll-feed 
+  - jekyll-include-cache
 
 exclude:
   - CNAME

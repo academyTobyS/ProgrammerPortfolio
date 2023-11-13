@@ -1,0 +1,8 @@
+# main links
+main:
+  - title: "Portfolio"
+    url: index.html
+  - title: "About Me"
+    url: about.html
+  - title: "GitHub"
+    url: https://github.com/academyTobyS/ProgrammerPortfolio

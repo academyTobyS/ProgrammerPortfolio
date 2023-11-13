@@ -1,6 +1,20 @@
 ---
-layout: page
+layout: home
 title: Portfolio
+
+sidebar:
+  - title: "Interesting Articles"
+    text: "Below is a collection of articles interesting and relevant to our industry"
+  - title: "Data-Oriented Design"
+    text: "- Mike Acton"
+  - title: "Data-Oriented Design"
+    text: "- Mike Acton"
+  - title: "Data-Oriented Design"
+    text: "- Mike Acton"
+  - title: "Data-Oriented Design"
+    text: "- Mike Acton"
+  - title: "Data-Oriented Design"
+    text: "- Mike Acton"
 ---
 
 <style>
