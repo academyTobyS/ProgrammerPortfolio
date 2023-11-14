@@ -27,8 +27,8 @@ url: "https://programmer-portfolio-template.github.io" # the base hostname & pro
 twitter_username: theAuthor
 github_username:  theAuthor
 
-load_paths:
-  - _sass
+sass:
+  sass_dir: _sass
 
 # Build settings
 # remote-theme: pages-themes/cayman@v0.2.0
