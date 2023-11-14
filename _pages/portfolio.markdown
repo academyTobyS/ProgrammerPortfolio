@@ -31,13 +31,6 @@ sidebar:
 	padding-top: 10px;
   }
   
-  .project-image
-  {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-  }
-  
   .project-type
   {
 	color: red;
@@ -45,9 +38,7 @@ sidebar:
   
   .project-desc
   {
-	text-align: left;
-	padding-left: 150px;
-  
+	text-align: left;  
 	font-style: italic;
 	color: grey;
   }
@@ -56,20 +47,19 @@ sidebar:
   {
 	font-style: italic;
 	color: red;
+  text-decoration: none;
   }
   .project-link:hover
   {
-	text-decoration: underline;
-  }
-  
-  
+    text-decoration: underline;
+  }  
 </style>
 
 ----------------------
 
 <p class="project-title">Spoof Invaders: <span class="project-type">Pure C++ Project</span></p>
 
-![ScreenshotA-Image](/assets/image/Screenshot.png){:class="project-image"}
+![ScreenshotA-Image]({{ site.url }}{{ site.baseurl }}/assets/image/Screenshot.png){: .align-center}
 
 <div class="project-desc" markdown="1">
 - A small C++ game coded completely by me
@@ -83,7 +73,7 @@ Access the GitHub repository <a href="https://www.example.com" class="project-li
 
 <p class="project-title">AAA-mazing Grace: <span class="project-type">Unreal C++ Project</span></p>
 
-![ScreenshotB-Image](/assets/image/Screenshot.png){:class="project-image"}
+![ScreenshotB-Image]({{ site.url }}{{ site.baseurl }}/assets/image/Screenshot.png){: .align-center}
 
 <div class="project-desc" markdown="1">
 - Group project: I coded the procedural maze generation
@@ -97,7 +87,7 @@ Access the GitHub repository with just my C++ code <a href="https://www.example.
 
 <p class="project-title">Indie-Spensable: <span class="project-type">Unity C# Project</span></p>
 
-![ScreenshotC-Image](/assets/image/Screenshot.png){:class="project-image"}
+![ScreenshotC-Image]({{ site.url }}{{ site.baseurl }}/assets/image/Screenshot.png){: .align-center}
 
 <div class="project-desc" markdown="1">
 - Individual project coded completely by me

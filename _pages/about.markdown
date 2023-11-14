@@ -13,7 +13,7 @@ permalink: /about/
 
 ----------------------
 
-![Profile-Image](/assets/image/Profile.png){:style="display:block; margin-left:auto; margin-right:auto; margin-top: 20px"}
+![Profile-Image]({{ site.url }}{{ site.baseurl }}/assets/image/Profile.png){: .align-center}
 
 I am a <span class="text-highlight">Sheffield</span> graduate with a passion for making videogames and a first class degree in <span class="text-highlight">Computer Science</span>. I enjoy playing videogames of all kinds of genres, but am a particular fan of Sackboy: A Big Adventure for PS5.
 
