@@ -1,6 +1,26 @@
 ---
-layout: page
+layout: single
 title: About Me
+permalink: /about/
+
+sidebar:
+  - title: "Interesting Articles"
+    text: "Below is a collection of articles I find interesting and relevant to our industry"
+  - title: "Data-Oriented Design"
+    url: https://www.example.com
+    text: "- Mike Acton"
+  - title: "Data-Oriented Design"
+    url: https://www.example.com
+    text: "- Mike Acton"
+  - title: "Data-Oriented Design"
+    url: https://www.example.com
+    text: "- Mike Acton"
+  - title: "Data-Oriented Design"
+    url: https://www.example.com
+    text: "- Mike Acton"
+  - title: "Data-Oriented Design"
+    url: https://www.example.com
+    text: "- Mike Acton"
 ---
 
 <style>
@@ -12,7 +32,7 @@ title: About Me
 
 ----------------------
 
-![Profile-Image](/image/Profile.png){:style="display:block; margin-left:auto; margin-right:auto; margin-top: 20px"}
+![Profile-Image]({{ site.url }}{{ site.baseurl }}/assets/image/Profile.png){: .align-center}
 
 I am a <span class="text-highlight">Sheffield</span> graduate with a passion for making videogames and a first class degree in <span class="text-highlight">Computer Science</span>. I enjoy playing videogames of all kinds of genres, but am a particular fan of Sackboy: A Big Adventure for PS5.
 

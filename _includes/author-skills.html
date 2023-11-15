@@ -1,0 +1,10 @@
+{% if site.author.skills %}
+  <div class="author-skills">
+    <h2>Skills</h2>
+    <ul>
+      {% for skill in site.author.skills %}
+        <li>{{ skill }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endif %}
