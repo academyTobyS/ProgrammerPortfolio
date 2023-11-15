@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: Portfolio
-permalink: /portfolio/
+permalink: /
 
 sidebar:
   - title: "Interesting Articles"

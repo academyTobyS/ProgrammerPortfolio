@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Portfolio"
-    url: /portfolio/
+    url: /
   - title: "About Me"
     url: /about/
   - title: "GitHub"
