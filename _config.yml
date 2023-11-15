@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -105,29 +105,47 @@ analytics:
 # Site Author
 author:
   name             : "Jo Bloggs"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A Sheffield graduate of Computer Science"
+  avatar           : "/assets/image/Profile.png"
+  bio              : "A succesful graduate of Sheffield Computer Science"
   location         : "Sheffield"
-  email            : JoBloggs@example.com
+  #email            : JoBloggs@example.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
+      url: "mailto:JoBloggs@example.com"
+
+    #- label: "Website"
+      #icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    #- label: "Twitter"
+      #icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    #- label: "Facebook"
+      #icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      url: "https://github.com/"
+
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://uk.linkedin.com/"
+
+    - label: "CV (download)"
+      icon: "fas fa-fw fa-download"
+      url: /assets/cv.placeholder
+
+    #- label: "Instagram"
+      # icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+
+  skills:
+    - "Proficient in C++"
+    - "Game Design"
+    - "Github collaboration"
+    - "Unity workflow"
+    
 
 # Site Footer
 footer:
@@ -291,6 +309,6 @@ defaults:
       share: true
       related: true
 
-# disable RSS feed
+# disable RSS feed - toby
 atom_feed:
   hide: true

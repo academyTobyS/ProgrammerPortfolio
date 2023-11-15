@@ -4,5 +4,7 @@ main:
     url: /
   - title: "About Me"
     url: /about/
-  - title: "GitHub"
-    url: https://github.com/academyTobyS/ProgrammerPortfolio
+  - title: "Curriculum Vitae"
+    url: /cv/
+  - title: "My Course"
+    url: https://www.sheffield.ac.uk/undergraduate/courses/2024/computer-science-bsc
