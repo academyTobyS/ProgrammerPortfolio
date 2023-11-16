@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+# minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -312,3 +312,10 @@ defaults:
 # disable RSS feed - toby
 atom_feed:
   hide: true
+  
+  
+sections:
+  portfolio_url: /
+  about_url: /about/
+  cv_url: /cv/
+  course_url: https://www.sheffield.ac.uk/undergraduate/courses/2024/computer-science-bsc

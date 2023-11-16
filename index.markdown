@@ -14,7 +14,7 @@ permalink: /
   
   .project-type
   {
-	color: red;
+	color: rgb(181, 232, 83);
   }
   
   .project-desc
@@ -27,7 +27,7 @@ permalink: /
   .project-link, .project-link:visited
   {
 	font-style: italic;
-	color: red;
+	color: rgb(181, 232, 83);
   text-decoration: none;
   }
   .project-link:hover
@@ -36,7 +36,6 @@ permalink: /
   }  
 </style>
 
-----------------------
 
 <p class="project-title">Spoof Invaders: <span class="project-type">Pure C++ Project</span></p>
 

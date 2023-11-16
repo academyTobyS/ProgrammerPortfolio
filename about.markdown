@@ -1,36 +1,15 @@
 ---
-layout: post
+layout: default
 title: About Me
 permalink: /about/
-
-sidebar:
-  - title: "Interesting Articles"
-    text: "Below is a collection of articles I find interesting and relevant to our industry"
-  - title: "Data-Oriented Design"
-    url: https://www.example.com
-    text: "- Mike Acton"
-  - title: "Data-Oriented Design"
-    url: https://www.example.com
-    text: "- Mike Acton"
-  - title: "Data-Oriented Design"
-    url: https://www.example.com
-    text: "- Mike Acton"
-  - title: "Data-Oriented Design"
-    url: https://www.example.com
-    text: "- Mike Acton"
-  - title: "Data-Oriented Design"
-    url: https://www.example.com
-    text: "- Mike Acton"
 ---
 
 <style>
   .text-highlight {
-    color: red;
+    color: rgb(181, 232, 83);
     font-weight: bold;
   }
 </style>
-
-----------------------
 
 ![Profile-Image]({{ site.url }}{{ site.baseurl }}/assets/image/Profile.png){: .align-center}
 
