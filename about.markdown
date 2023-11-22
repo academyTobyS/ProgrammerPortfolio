@@ -1,4 +1,6 @@
 ---
+annotation-link: https://www.example.com/about-annotations
+
 layout: default
 title: About Me
 permalink: /about/

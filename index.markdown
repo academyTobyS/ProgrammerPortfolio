@@ -1,4 +1,6 @@
 ---
+annotation-link: https://www.example.com/portfolio-annotations
+
 layout: default
 title: Portfolio
 permalink: /

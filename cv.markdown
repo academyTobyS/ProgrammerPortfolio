@@ -1,4 +1,6 @@
 ---
+annotation-link: https://www.example.com/cv-annotations
+
 layout: default
 title: Curriculum Vitae
 permalink: /cv/
